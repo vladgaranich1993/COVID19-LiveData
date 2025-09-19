@@ -2,14 +2,12 @@
 
 A small, single‑page app that visualizes **COVID‑19 statistics**. I built it primarily to **practice TypeScript with Vue** and experiment with **data visualization** in a real-world use case.
 
-> If you’re reviewing the code: the focus is on clean component structure, typed data models, and rendering time‑series charts from a public API.
-
 ---
 
 ## ✨ Purpose
 
 * Practice **TypeScript** in a Vue application (typed API models, props, and component state)
-* Practice **Vue** patterns (single‑file components, props/emit, composables or mixins depending on Vue version)
+* Practice **Vue** patterns (single‑file components, props/emit, state management)
 * Practice **data visualization** (time‑series, totals, per‑country breakdowns)
 
 ---
@@ -17,6 +15,7 @@ A small, single‑page app that visualizes **COVID‑19 statistics**. I built it
 ## 🧰 Tech Stack
 
 * **Vue.js** (CLI scaffolded SPA)
+* **Vuex** State Management
 * **TypeScript**
 * **Data viz:** Chart.js
 * **HTTP:** Fetch API
